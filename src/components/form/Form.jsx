@@ -16,7 +16,6 @@ function Formulario() {
 
   return (
     <>
-    <form id='formulario'>
     <h1>Form de Registro</h1>
     <h4>Por favor complete con sus datos el formulario</h4>
     <h3><b>Datos del Estudiante</b></h3>
@@ -74,7 +73,6 @@ function Formulario() {
     <div>
     <button className='registrar' onClick={mostrarDatos}>Registrar</button>
     </div><br />
-    </form>
     {/* HTML */}
 
     </>
